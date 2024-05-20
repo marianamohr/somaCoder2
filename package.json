@@ -1,5 +1,5 @@
 {
-  "name": "somacoder",
+  "name": "somacoder2",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -7,13 +7,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marianamohr/somaCoder.git"
+    "url": "git+https://github.com/marianamohr/somaCoder2.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/marianamohr/somaCoder/issues"
+    "url": "https://github.com/marianamohr/somaCoder2/issues"
   },
-  "homepage": "https://github.com/marianamohr/somaCoder#readme",
+  "homepage": "https://github.com/marianamohr/somaCoder2#readme",
   "description": ""
 }
