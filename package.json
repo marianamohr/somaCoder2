@@ -2,18 +2,21 @@
   "name": "somacoder2",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/marianamohr/somaCoder2.git"
   },
   "author": "",
   "license": "ISC",
+  "scripts": {
+    "test": "jest"
+  },
   "bugs": {
     "url": "https://github.com/marianamohr/somaCoder2/issues"
   },
   "homepage": "https://github.com/marianamohr/somaCoder2#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
