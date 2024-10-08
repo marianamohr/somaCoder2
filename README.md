@@ -12,6 +12,6 @@ This project contains a simple `soma` function that takes any number of argument
 The `soma` function can be imported and used in your project:
 
 ```js
-const { soma } = require('./path/to/your/file');
+const { soma } = require('somaCoder2');
 
 console.log(soma(1, 2, 3)); // Output: 6
