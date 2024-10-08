@@ -1,17 +1,69 @@
-# Soma Function
 
-This project contains a simple `soma` function that takes any number of arguments and returns their sum.
+# soma
+
+`soma` is a simple JavaScript function that sums any number of numeric arguments. It handles various edge cases, such as no input, non-numeric values, and negative numbers.
 
 ## Installation
 
-1. Clone the repository
-2. Run `npm install` to install the required dependencies.
+Install the package via npm:
+
+```bash
+npm install somaCoder2
+```
 
 ## Usage
 
-The `soma` function can be imported and used in your project:
+After installation, you can use the `soma` function in your project:
 
 ```js
 const { soma } = require('somaCoder2');
 
 console.log(soma(1, 2, 3)); // Output: 6
+```
+
+
+### Example
+
+```js
+// Summing multiple numbers
+soma(1, 2, 3); // returns 6
+
+// No arguments
+soma(); // returns 0
+
+// Non-numeric argument
+soma(1, "2", 3); // returns null
+
+// Handling negative numbers
+soma(-1, -2, -3); // returns -6
+```
+
+## Running Tests
+
+This package comes with a test suite powered by Jest. To run the tests, follow these steps:
+
+1. Clone the repository from GitHub:
+   ```bash
+   git clone git@github.com:marianamohr/somaCoder2.git
+   ```
+   
+2. Navigate into the project directory:
+   ```bash
+   cd somaCoder2
+   ```
+
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Run the tests:
+   ```bash
+   npm test
+   ```
+
+The tests include scenarios for:
+- Correct summing of numeric arguments.
+- Handling of non-numeric arguments.
+- Proper behavior when no arguments are passed.
+- Summing of negative numbers.
